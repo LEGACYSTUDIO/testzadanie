@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/grid.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</head>
+<body>
+	<div class="search-block">
+		<input type="text" placeholder="Найти...">
+		<button>найти</button>
+	</div>
+
+	<div class="wrapper">
+		<div class="row row-long header-top">
+			<div class="city">
+				<a href="#">Тюмень</a>
+			</div>
+			<div class="auth">
+				<a href="#">Вход</a>
+				<a href="#">Регистрация</a>
+			</div>
+		</div>
+		<div class="row row-full row-header">
+			<div class="row row-long header">
+				<div class="logo">
+					<a href="#">
+						<img class="logo-s" src="img/logo.png" alt="">
+						<img class="logo-m" src="img/logo-min.png" alt="">
+					</a>
+				</div>
+				<div class="menu-top">
+					<div class="hamburger">
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					</div>
+					<ul>
+						<li><a href="#">Кофе</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Подписка</a></li>
+						<li><a href="#">Блог</a></li>
+						<li><a href="#">Компания</a></li>
+					</ul>
+					<div class="search">
+						<button></button>
+					</div>
+					<div class="cart">
+						<a href="#">Корзина</a>
+					</div>
+				</div>
+			</div>
+			<div class="hamb-menu" id="qwe">
+				<ul>
+					<li><a href="#">Кофе</a></li>
+					<li><a href="#">Каталог</a></li>
+					<li><a href="#">Подписка</a></li>
+					<li><a href="#">Блог</a></li>
+					<li><a href="#">Компания</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row item">
+			<div class="photo">
+				<div class="main-photo">
+					<img src="img/coffee.png" alt="">
+				</div>
+				<div class="thumbs">
+					<div class="thumb">
+						<img src="img/little2.png" alt="">
+					</div>
+					<div class="thumb">
+						<img src="img/little1.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="info">
+				<div class="name">Кофемашина DeLonghi ECAM 22 360</div>
+				<div class="rate">
+					<div class="star"></div>
+					<div class="star"></div>
+					<div class="star"></div>
+					<div class="star"></div>
+					<div class="star"></div>
+				</div>
+				<div class="price">
+					229 700 <span class="rub">р</span> <span class="bonus">(+160 бонусов на счет)</span>
+				</div>
+				<div class="count">
+					<label for="count">Количество: </label>
+					<div class="select-style">
+					  <select name="count">
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					  </select>
+					</div>
+				</div>
+				<div class="in-cart">
+					<button class="btn-in-cart">В корзину</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="row desc">
+			<div class="nav-desc">
+				<ul>
+					<li class="active"><a href="#">Описание товара</a></li>
+					<li><a href="#">Отзывы покупателей</a></li>
+				</ul>
+			</div>
+			<div class="block-text">
+				<div class="text">
+					Кофемашина DeLonghi ECAM 22 360 представляет собой отличный аппарат, вобравший в себя как компактность, так и поразительную функциональность. машина оснащенная запатентованной автоматической системой приготовления превосходного капучино De’Longhi, который вы можете приготовить нажав всего одну единственную кнопку. 
+				</div>
+				<div class="image">
+					<img src="img/review.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="row features">
+			<table class="table-features">
+				<caption>Характеристики</caption>
+				<tr>
+					<td>Напряжение/Частота переменного тока (В~Гц):</td>
+					<td>220/240~50/60</td>
+				</tr>
+				<tr>
+					<td>Потребляемая мощность (Вт):</td>
+					<td>1450</td>
+				</tr>
+				<tr>
+					<td>Контроль крепости: </td>
+					<td>Да</td>
+				</tr>
+				<tr>
+					<td>Звуковой сигнал: </td>
+					<td>Да</td>
+				</tr>
+				<tr>
+					<td>Автоматическая очистка: </td>
+					<td>Да</td>
+				</tr>
+				<tr>
+					<td>Автоматическое выключение: </td>
+					<td>Да</td>
+				</tr>
+				<tr>
+					<td>Вместимость резервуара для зерен: </td>
+					<td>250 г</td>
+				</tr>
+				<tr>
+					<td>Индикация необходимости очистки системы IFD: </td>
+					<td>Да</td>
+				</tr>
+				<tr>
+					<td>Вместимость контейнера для кофейной гущи<br>(кол-во): </td>
+					<td>14</td>
+				</tr>
+				<tr>
+					<td>Использование молотого кофе: </td>
+					<td>Да</td>
+				</tr>
+				<tr>
+					<td>Подставка для чашек: </td>
+					<td>Да</td>
+				</tr>
+				<tr>
+					<td>Декальцинация, автоматическая промывка и ополаскивание: </td>
+					<td>Да</td>
+				</tr>
+				<tr>
+					<td>Регулировка дозатора под высоту чашки<br>(мин/макс): </td>
+					<td>86-142 мм</td>
+				</tr>
+				<tr>
+					<td>Дисплей: 2-строчный текстовой</td>
+					<td>Да</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="row tog-show">
+			<div class="title">
+				Вместе с этим товаром заказывают:
+			</div>
+			<div class="tog-block">
+				<article class="tog-item">
+					<a href="#">
+						<div class="tog-image"><img src="img/buy1.png" alt=""></div>
+						<div class="tog-name">Сервировочный чайник Hario V60 Range Server</div>
+						<div class="tog-price">
+							<div class="discount">3000 р.</div>
+							1900 р.
+						</div>
+					</a>
+				</article>
+				<article class="tog-item">
+					<a href="#">
+						<div class="tog-image"><img src="img/buy2.png" alt=""></div>
+						<div class="tog-name">Весы с таймером Hario V60 Drip Scaie</div>
+						<div class="tog-price">
+							<div class="discount"></div>
+							1900 р.
+						</div>
+					</a>
+				</article>
+				<article class="tog-item">
+					<a href="">
+						<div class="tog-image"><img src="img/buy3.png" alt=""></div>
+						<div class="tog-name">Сироп 1883 “Шоколад”</div>
+						<div class="tog-price">
+							<div class="discount"></div>
+							1900 р.
+						</div>
+					</a>
+				</article>
+				<article class="tog-item">
+					<a href="#">
+						<div class="tog-image"><img src="img/buy4.png" alt=""></div>
+						<div class="tog-name">Подарочный набор “Кофейное приключение”</div>
+						<div class="tog-price">
+							<div class="discount"></div>
+							1900 р.
+						</div>
+					</a>
+				</article>
+			</div>
+		</div>
+
+		<div class="row know">
+			<div class="title">
+				Полезно знать:
+			</div>
+			<div class="know-block">
+				<div class="know-item">
+					<a href="#">
+						<div class="know-image"><img src="img/know1.png" alt=""></div>
+						<div class="know-name">Инструкция приготовления кофе в турке</div>	
+					</a>
+				</div>
+				<div class="know-item">
+					<a href="#">
+						<div class="know-image"><img src="img/know2.png" alt=""></div>
+						<div class="know-name">Как правильно молоть свежеобжаренный кофе</div>
+					</a>
+				</div>
+				<div class="know-item">
+					<a href="#">
+						<div class="know-image"><img src="img/know3.png" alt=""></div>
+						<div class="know-name">Всё о свежей обжарке. Преимущества свежей обжарки кофе</div>
+					</a>
+				</div>
+				<div class="know-item">
+					<a href="#">
+						<div class="know-image"><img src="img/know4.png" alt=""></div>
+						<div class="know-name">Сравнение ручных кофемолок Hario Skerton</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="row row-full row-footer">
+			<div class="row footer">
+				<div class="menu-bottom">
+					<div class="menu-block">
+						<div class="block-title">
+							компания
+						</div>
+						<ul>
+							<li><a href="#">История компании</a></li>
+							<li><a href="#">Блог</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="menu-block">
+						<div class="block-title">
+							каталог товаров
+						</div>
+						<ul>
+							<li><a href="#">Кофе</a></li>
+							<li><a href="#">Оборудование</a></li>
+							<li><a href="#">Сиропы</a></li>
+							<li><a href="#">Подарочные наборы</a></li>
+							<li><a href="#">Кофе по подписке</a></li>
+						</ul>
+					</div>
+					<div class="menu-block">
+						<div class="block-title">
+							помощь покупателю
+						</div>
+						<ul>
+							<li><a href="#">Личный кабинет</a></li>
+							<li><a href="#">Клуб</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Договор, оферта</a></li>
+							<li><a href="#">Политика конфиденциальности</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="social-follow">
+					<div class="follow">
+						<div class="block-title">
+							подписка на новости
+						</div>
+						<div class="follow-block">
+							<input type="text" placeholder="Ваш email">
+							<button class="btn-follow"></button>
+						</div>
+					</div>
+					<div class="social">
+						<div class="block-title">
+							вступай в наши сообщества
+						</div>
+						<div class="social-block">
+							<ul>
+								<li><a href="#"><img src="img/icon-vk.png" alt=""></a></li>
+								<li><a href="#"><img src="img/icon-fb.png" alt=""></a></li>
+								<li><a href="#"><img src="img/icon-insta.png" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row row-long footer-bottom">
+			<div class="copy">
+				&copy; megatorg 2016
+			</div>
+			<div class="dev">
+				Разработка сайта <a href="#">Legacy</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

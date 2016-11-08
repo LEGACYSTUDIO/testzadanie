@@ -1,0 +1,149 @@
+/*  */
+@media(min-width: 850px){
+  .toggle{
+    display: none!important;
+  }
+}
+@media(max-width: 990px){
+  .row.row-full{
+    max-width: 100%;
+  }
+  .row{
+    max-width: 800px;
+  }
+  .header{
+    justify-content: flex-end;
+  }
+  .logo{
+    padding-right: 10px;
+  }
+  .logo img{
+    width: 100%;
+  }
+  .image img {
+    width: 100%;
+  }
+}
+@media(max-width: 850px){
+  .header{
+    justify-content: space-between;
+  }
+  .logo{
+    line-height: 0;
+  }
+  .logo a{
+    margin-left: -15px;
+  }
+  .hamburger{
+    display: block;
+  }
+  .menu-top ul{
+    display: none;
+  }
+  .cart a {
+    width: 0px;
+    overflow: hidden;
+  }
+  .search{
+    border-left: 1px solid #e0e0e0;
+    margin-left: 20px;
+  }
+  .nav-desc li{
+    margin: 0 20px;
+  }
+  .tog-item,
+  .know-item{
+    width: 30%;
+  }
+  .tog-item:nth-child(n+4),
+  .know-item:nth-child(n+4){
+    display: none;
+  }
+  .row{
+    max-width: 600px;
+  }
+}
+@media(max-width: 660px){
+  .logo-m{
+    display: block;
+    position: relative;
+  }
+  .logo-s{
+    display: none;
+    position: absolute;
+  }
+  .info { 
+    width: auto;
+    order: 1; 
+  }
+  .photo { 
+    order: 2; 
+    width: 100%;
+  }
+  .in-cart {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .nav-desc ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-desc li {
+      margin: 0;
+  }
+  .block-text {
+    flex-direction: column;
+  }
+  .text,
+  .image{
+    width: 100%;
+  }
+  .text{
+    margin-bottom: 20px;
+  } 
+  .item{
+    flex-direction: column;
+  }
+  .tog-block,
+  .know-block{
+    flex-direction: column;
+    align-items: center;
+  }
+  .tog-item,
+  .know-item{
+    width: auto;
+    max-width: 240px;
+    margin-bottom: 40px;
+  }
+  .main-photo{
+    height: auto;
+  }
+  .menu-bottom{
+    display: none;
+  }
+  .search-block input{
+    width: 70%;
+  }
+  .search-block button{
+    width: 30%;
+  }
+
+  .row{
+    max-width: 410px;
+  }
+}
+@media(max-width: 470px){
+  .row{
+    max-width: 320px;
+  }
+}
+@media(max-width: 400px){
+  .row{
+    max-width: 300px;
+  }
+}
+@media(max-width: 350px){
+  .row{
+    max-width: 250px;
+  }
+}
