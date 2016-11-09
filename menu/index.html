@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Document</title>
+ 	<link rel="stylesheet" href="styles.css">
+ 	<script type="text/javascript" src="svg.js"></script>
+ 	<script>
+ 		window.onload = function(){
+			document.getElementById('svg-placeholder').innerHTML = svg;
+ 		};
+ 	</script>
+ </head>
+ <body>
+	<div id="svg-placeholder" style="display: none;"></div>
+	
+	<nav class="main">
+		<li>
+			<svg>
+				<use xlink:href="#icon1"></use>
+			</svg>
+			<a href="#">HTML</a>
+			<nav class="dropdown">
+				<li>
+					<svg>
+						<use xlink:href="#icon1"></use>
+					</svg>
+					<a href="#">HTML5</a>
+				</li>
+				<li>
+					<svg>
+						<use xlink:href="#icon1"></use>
+					</svg>
+					<a href="#">HTML4</a>
+				</li>
+				<li>
+					<svg>
+						<use xlink:href="#icon1"></use>
+					</svg>
+					<a href="#">Learn</a>
+				</li>
+				<li>
+					<svg>
+						<use xlink:href="#icon1"></use>
+					</svg>
+					<a href="#">Tasks</a>
+				</li>
+			</nav>
+		</li>
+		<li>
+			<svg>
+				<use xlink:href="#icon2"></use>
+			</svg>
+			<a href="#">CSS</a>
+			<nav class="dropdown">
+				<li>
+					<svg>
+						<use xlink:href="#icon2"></use>
+					</svg>
+					<a href="#">CSS2</a>
+				</li>
+				<li>
+					<svg>
+						<use xlink:href="#icon2"></use>
+					</svg>
+					<a href="#">CSS3</a>
+				</li>
+				<li>
+					<svg>
+						<use xlink:href="#icon2"></use>
+					</svg>
+					<a href="#">LESS</a>
+				</li>
+			</nav>
+		</li>
+		<li>
+			<svg>
+				<use xlink:href="#icon3"></use>
+			</svg>
+			<a href="#">PHP</a>
+		</li>
+		<li>
+			<svg>
+				<use xlink:href="#icon4"></use>
+			</svg>
+			<a href="#">JS</a>
+		</li>
+		<li>
+			<svg>
+				<use xlink:href="#icon5"></use>
+			</svg>
+			<a href="#">MVC</a>
+		</li>
+	</nav>
+
+ </body>
+ </html>
