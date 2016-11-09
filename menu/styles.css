@@ -38,7 +38,7 @@ svg{
 	color: #fff;
 }
 .main li:hover .dropdown{
-	/* display: block; */
+	display: block;
 	opacity: 1;
 }
 .main li{
@@ -51,6 +51,7 @@ svg{
 	width: 1em;
 }
 .dropdown{
+	display: none;
 	border: 1px solid #ccc;
 	border-top: 0;
 	opacity: 0;
